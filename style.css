@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9; /* Banayad na kulay-abo na background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 250px; /* Pare-parehong lapad */
+    box-sizing: border-box; /* Kasama ang padding at border sa lapad */
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #007bff; /* Asul na kulay ng button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Mas madilim na asul kapag naka-hover */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.1em;
+    color: #555;
+    font-weight: bold;
+}
