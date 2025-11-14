@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f9; /* Banayad na kulay-abo na background */
+    background-color: #f4f4f9; 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,13 +20,13 @@ input[type="text"] {
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    width: 250px; /* Pare-parehong lapad */
-    box-sizing: border-box; /* Kasama ang padding at border sa lapad */
+    width: 250px; 
+    box-sizing: border-box; 
 }
 
 button {
     padding: 10px 15px;
-    background-color: #007bff; /* Asul na kulay ng button */
+    background-color: #007bff; 
     color: white;
     border: none;
     border-radius: 5px;
@@ -36,7 +36,7 @@ button {
 }
 
 button:hover {
-    background-color: #0056b3; /* Mas madilim na asul kapag naka-hover */
+    background-color: #0056b3; 
 }
 
 #result {

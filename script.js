@@ -8,6 +8,6 @@ document.addEventListener("DOMContentLoaded", function() {
         const color = document.getElementById("color").value
 
         
-        document.getElementById("result").textContent = "Hello, " + name + " ikaw ay " + age + " anyos na " + "ang favorite color mo ay " + color + " bading!!";
+        document.getElementById("result").textContent = "Hello, " + name + " ikaw ay " + age + " anyos na " + "ang favorite color mo ay " + color + " !!";
     });
 });
